@@ -184,75 +184,17 @@ It also helps to use a prefix for the id's based on their usage;. Below are some
 
 LinearLayout id :
 
-        android:id="@+id/linear_layout_<name>"
+        android:id="@+id/ll_<name>"
 
 RelativeLayout id :
 
-        android:id="@+id/relative_layout_<name>"
+        android:id="@+id/rl_<name>"
 
 FrameLayout id :
 
-        android:id="@+id/frame_layout_<name>"
+        android:id="@+id/fl_<name>"
 
 Fragment id :
 
-        android:id="@+id/fragment_<name>"
+        android:id="@+id/f_<name>"
 
-The same rule applies to naming of id's for input controls. Below are some examples of id's for various input controls;
-
-Button id :
-
-        android:id="@+id/button_<name>"
-
-ImageButton :
-
-        android:id="@+id/image_button_<name>"
-
-EditText :
-
-        android:id="@+id/edit_text_<name>"
-
-TextView :
-
-        android:id="@+id/text_view_<name>"
-
-And so on....
-
-
-#### The above resource files can also be given ids in Camel Case conventions. Although this is not a standard rule. But why I am adding this because it makes our code writing easy. You can declare the id of resource using the Camel Case rule and while declaring the same resource in java file it is easy to understand and can be used in the same manner.
-
-
-
-LinearLayout id :
-
-        android:id="@+id/linearLayoutSearch"
-
-RelativeLayout id :
-
-        android:id="@+id/relativeLayoutSearch"
-
-FrameLayout id :
-
-        android:id="@+id/frameLayoutSearch"
-
-Fragment id :
-
-        android:id="@+id/fragmentSearch"
-
-Button id :
-
-        android:id="@+id/buttonSearch"
-
-ImageButton :
-
-        android:id="@+id/imageButtonSearch"
-
-EditText :
-
-        android:id="@+id/editTextSearch"
-
-TextView :
-
-        android:id="@+id/textViewSearch"
-
-And so on....
